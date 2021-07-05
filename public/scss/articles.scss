@@ -1,0 +1,41 @@
+.articles {
+    padding-bottom: 150px;
+    .row {
+        margin: auto;
+    }
+    .post {
+        transition: 1s;
+        margin-bottom: 50px;
+        img {
+            width: 100%;
+        }
+        .main-title {
+            margin-top: 25px;
+            font-family: Ubuntu;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #b4ad9e;
+        }
+        .article-title {
+            margin-top: 18px;
+            font-family: 'Playfair Display';
+            font-size: 30px;
+            color: #626262;
+        }
+        .text {
+            margin-top: 25px;
+            font-family: 'Playfair Display';
+            font-size: 14px;
+            color: #626262;
+        }
+    }
+    
+    button {
+        font-family: 'Playfair Display';
+        font-size: 20px;
+        color: #626262;
+        background-color: white;
+        padding: 20px 33px;
+        border: 1px solid #626262;
+    }
+}

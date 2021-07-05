@@ -1,0 +1,30 @@
+.footer {
+    a {
+        padding-right: 15px;
+        text-decoration: none;
+        font-family: 'Playfair Display';
+        font-size: 14px;
+        color: #000000;
+        &:last-child {
+            padding: 0;
+        }
+    }
+    height: 97px;
+    .container {
+        height: 100%;
+        padding: 0 75px;
+
+    }
+    background-color: #f0f0f0;
+    .flex-row {
+        height: inherit;
+    }
+    @media (max-width: 767px) {
+        .container {
+            padding: 0;
+        }
+        .foot_links {
+            justify-content: space-around;
+        }
+    }
+}
